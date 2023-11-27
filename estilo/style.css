@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --cor0:hsl(234, 29%, 20%);
+    --cor1:hsl(235, 18%, 26%);
+    --cor2: hsl(231, 7%, 60%);
+    --cor3:hsl(0, 0%, 100%);
+    --cor4: hsl(4, 100%, 67%);
+}
+header{
+    width: 100vw;
+    height: 300px;
+    background: url(../assets/images/illustration-sign-up-mobile.svg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0px 0px 20px 20px;
+}
