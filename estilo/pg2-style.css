@@ -78,5 +78,8 @@ h1{
     }
     #isubmit:hover{
         background: linear-gradient(to right,hsl(4, 100%, 67%),#FF5574);
+        transition: .3s;
+        scale: 1.05;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
     }
 }
