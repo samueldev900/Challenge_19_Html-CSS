@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/pg2-style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Thank You</title>
+</head>
+<body>
+    
+    <main>
+        <div class="content">
+            <img src="assets/images/icon-success.svg" alt="icon-sucess">
+            <h1>Thanks for subscribing!</h1>
+            <p>
+                A confirmation email has been sent to
+                <strong id="local-email">
+                    ash@loremcompany.com.
+                </strong>
+                Please open it and click the button inside to confirm your subscription.
+            </p>
+        </div>
+        <a href="index.html">
+            <input class="isubmit" id="isubmit" type="button" value="Dismiss message"></input>
+        </a>
+    </main>
+</body>
+<script>
+    var email = localStorage.getItem("iemail");
+    var n = document.getElementById('local-email')
+    n.innerHTML = email
+    
+</script>
+</html>
